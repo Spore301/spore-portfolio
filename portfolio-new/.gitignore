@@ -1,0 +1,19 @@
+# General
+.DS_Store
+
+# AI / Editor
+.claude/
+.code-review-graph/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node / JS
+node_modules/
+.env
+
+# Next.js
+.next/
+out/

@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TRETO – Personal Portfolio Resume HTML Template</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="assets/table.css">
+</head>
+<body>
+	<header class="dt-header dt-header_blue">
+		<span class="dt-logo">TRETO – Personal Portfolio Resume HTML Template</span>
+	</header>
+	<div class="dt-container dt-container_flex">
+		<aside class="dt-navbar">
+			<nav class="dt-navbar__nav">
+				<div class="dt-navbar__section">
+					<ul class="dt-navbar__list">
+						<li><a href="#files_structure" class="dt-navbar__link">File structure</a></li>
+						<li>
+							<a href="#settings" class="dt-navbar__link">Settings</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#include_set" class="dt-navbar__link dt-navbar__link_nested">Template Settings</a></li>
+								<li><a href="#include_fonts" class="dt-navbar__link dt-navbar__link_nested">Include Fonts</a></li>
+								<li><a href="#include_icons" class="dt-navbar__link dt-navbar__link_nested">Edit Icons</a></li>
+							</ul>
+						</li>
+						<li><a href="#conts" class="dt-navbar__link">Contact Form PHP</a></li>
+						<li>
+							<a href="#html_structure" class="dt-navbar__link">HTML structure</a>
+							<ul class="dt-navbar__list">
+								<li><a href="#html_structure_header" class="dt-navbar__link dt-navbar__link_nested">"Header" Section</a></li>
+								<li><a href="#html_structure_footer" class="dt-navbar__link dt-navbar__link_nested">"Footer" Section</a></li>
+								<li><a href="#html_structure_home" class="dt-navbar__link dt-navbar__link_nested">"Wrapper" Section</a></li>
+							</ul>
+						</li>
+						<li><a href="#icons" class="dt-navbar__link">Icons</a></li>
+						<li><a href="#credits" class="dt-navbar__link">Credits</a></li>
+					</ul>
+				</div>
+			</nav>
+		</aside>
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<div class="dt-section">
+				<h2 class="dt-title">TRETO – Personal Portfolio Resume HTML Template</h2>
+				<p>by: bslthemes</p>
+				<p>Thank you for your purchase. If you have any questions, mail me to - <a href="mailto:beshleyua@gmail.com">beshleyua@gmail.com</a></p>
+			</div>
+			<article id="files_structure" class="dt-section">
+				<h2 class="dt-title">File structure</h2>
+				<p>After unpacking archive, you'll see this structure:</p>
+				<div class="dt-info-block">
+					<pre class="code language-html">
+						<code>
+html/
+│
+├──doc/
+├──template/
+│──│──css/
+│──│──scss/
+│──│──img/
+│──│──fonts/
+│──│──js/
+│──│──│──main.js
+│──│──|──plugins/
+│──│──mailer/
+│──│──│──feedback.php
+│──│──│──feedback-two.php
+│──│──│──forms_settings.php
+│──│──|──inc/
+│──│──index.html
+│──│──index-2.html
+│──│──prices.html
+│──│──blog.html
+│──│──publication.html
+│──│──contact.html
+│──│──portfolio.html
+│──│──project.html
+						</code>
+					</pre>
+				</div>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">css/</span> - compiled css styles for template
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">scss/</span> - main .scss styles for template
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">js/</span> - all JS library for template
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">main.js</span> - main JS for template</li>
+						</ul>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">mailer/</span> - PHP forms and mail settings for template
+						<ul class="dt-list dt-list_nested">
+							<li><span class="dt-label dt-label_bold">forms_settings.php</span> - email settings for forms</li>
+							<li><span class="dt-label dt-label_bold">feedback.php, feedback-two.php</span> - contact form settings</li>
+						</ul>
+					</li>
+				</ul>
+			</article>
+			<article id="settings" class="dt-section">
+				<h2 class="dt-title">Settings</h2>
+			</article>
+			<article id="include_fonts" class="dt-section">
+				<h2 class="dt-title">Template Settings</h2>
+				<p>For editing styling, colors, sizes, etc of the template you can use following settings, folder "/scss/_variables.scss". You need to compile the .sсss files to "/css" folder. You can use the "Visual Studio Code" app -> "Live Sass Compiler".</p>
+				<pre class="code language-html">
+					<code>
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$font-1: 'Jost',
+sans-serif;
+
+$dark: #101010;
+$gray: #202020;
+$soft: rgba(16, 16, 16, 0.18);
+$light: rgba(255, 255, 255, 1);
+$accent: #fa4729;
+$accent-light: rgba(250, 71, 41, 0.18);
+$black: #010101;
+
+$tr: .4s cubic-bezier(0, 0, 0.3642, 1);
+					</code>
+				</pre>
+			</article>
+			<article id="include_fonts" class="dt-section">
+				<h2 class="dt-title">Include of fonts</h2>
+				<p>For editing fonts of the template you can use following settings, folder "/scss/_variables.scss". You need to compile the .sсss files to "/css" folder. You can use the "Visual Studio Code" app -> "Live Sass Compiler".</p>
+				<pre class="code language-html">
+					<code>
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+					</code>
+				</pre>
+				<p>
+					Next step is to replace "$font-1: 'Jost'," to your fonts names.
+				</p>
+			</article>
+			<article id="include_icons" class="dt-section">
+				<h2 class="dt-title">Edit Icons</h2>
+				<p>In this template are defined some of classes for icons, see all icons here - <a href="https://fontawesome.com/v5/search">https://fontawesome.com/v5/search</a>, use search and select icons.</p>
+				<p>Copy icon class (for example "fas fa-code") and add to tag in html file like this:</p>
+				<pre class="code language-html">
+					<code>
+&lt;i class="fas fa-pencil-ruler"&gt;&lt;/i&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="conts" class="dt-section">
+				<h2 class="dt-title">Contact Form PHP</h2>
+				<p>To modify the form is submitted, you can use the following settings, folders "/mailer/forms_settings.php" and "/mailer/feedback.php", "/mailer/feedback-two.php"</p>
+			</article>
+			<article id="html_structure" class="dt-section">
+				<h2 class="dt-title">HTML structure</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en-US"&gt;
+
+&lt;head&gt;
+
+	&lt;title&gt;Treto - Personal Portfolio Resume HTML Template&lt;/title&gt;
+	&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+	&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+	&lt;meta name="HandheldFriendly" content="true"&gt;
+	&lt;meta name="author" content="bslthemes" /&gt;
+
+	&lt;!-- bootstrap grid css --&gt;
+	&lt;link rel="stylesheet" href="css/plugins/bootstrap-grid.css" type="text/css" media="all"&gt;
+	&lt;!-- swiper css --&gt;
+	&lt;link rel="stylesheet" href="css/plugins/swiper.min.css" type="text/css" media="all"&gt;
+	&lt;!-- magnific-popup css --&gt;
+	&lt;link rel="stylesheet" href="css/plugins/magnific-popup.css" type="text/css" media="all"&gt;
+	&lt;!-- fontawesome --&gt;
+	&lt;link rel="stylesheet" href="fonts/font-awesome/css/all.min.css" type="text/css" media="all" /&gt;
+
+	&lt;!-- treto css --&gt;
+	&lt;link rel="stylesheet" href="css/style.css" type="text/css" media="all"&gt;
+
+	&lt;!-- Favicon --&gt;
+	&lt;link rel="shortcut icon" href="favicon.ico" type="image/x-icon"&gt;
+	&lt;link rel="icon" href="favicon.ico" type="image/x-icon"&gt;
+
+&lt;/head&gt;
+
+&lt;body class="mil-custom-scroll"&gt;
+
+	&lt;!-- frame --&gt;
+	&lt;div class="mil-frame"&gt;
+
+		...
+
+	&lt;/div&gt;
+	&lt;!-- frame end --&gt;
+
+	&lt;!-- onepage wrapper --&gt;
+	&lt;div class="mil-onepage"&gt;
+
+		...
+
+	&lt;/div&gt;
+	&lt;!-- onepage wrapper end --&gt;
+
+	&lt;!-- pagination --&gt;
+	&lt;div class="mil-pagination"&gt;
+		&lt;div class="mil-dot mil-active" data-index="-1" data-name="Home"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="0" data-name="About"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="1" data-name="Skills"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="2" data-name="Education"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="3" data-name="Experience"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="4" data-name="Services"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="5" data-name="Testimonials"&gt;&lt;/div&gt;
+		&lt;div class="mil-dot" data-index="6" data-name="Contacts"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- pagination end --&gt;
+
+	&lt;!-- jquery js --&gt;
+	&lt;script src="js/plugins/jquery.min.js"&gt;&lt;/script&gt;
+	&lt;script src="js/plugins/jquery.validate.min.js"&gt;&lt;/script&gt;
+	&lt;!-- magnific-popup js --&gt;
+	&lt;script src="js/plugins/magnific-popup.js"&gt;&lt;/script&gt;
+	&lt;!-- onepage js --&gt;
+	&lt;script src="js/plugins/onepage.js"&gt;&lt;/script&gt;
+	&lt;!-- swiper js --&gt;
+	&lt;script src="js/plugins/swiper.min.js"&gt;&lt;/script&gt;
+	&lt;!-- isotope js --&gt;
+	&lt;script src="js/plugins/isotope.min.js"&gt;&lt;/script&gt;
+
+	&lt;!-- treto js --&gt;
+	&lt;script src="js/main.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+						
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_header" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Header"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- frame --&gt;
+&lt;div class="mil-frame"&gt;
+
+	&lt;!-- top panel --&gt;
+	&lt;div class="mil-top-panel mil-tp-2"&gt;
+		&lt;div class="mil-tp-frame"&gt;
+			&lt;a href="index.html" class="mil-logo"&gt;
+				&lt;img src="img/logo.png" alt="logo"&gt;
+			&lt;/a&gt;
+			&lt;nav&gt;
+				&lt;ul&gt;
+					&lt;li class="mil-active"&gt;
+						&lt;a href="#."&gt;Home&lt;/a&gt;
+						&lt;ul&gt;
+							&lt;li&gt;&lt;a href="index.html"&gt;Type 1&lt;/a&gt;&lt;/li&gt;
+							&lt;li&gt;&lt;a href="index-2.html"&gt;Type 2&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="prices.html"&gt;Prices&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="portfolio.html"&gt;Portfolio&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="blog.html"&gt;Blog&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href="contact.html"&gt;Contact Me&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/nav&gt;
+			&lt;div class="mil-menu-btn"&gt;
+				&lt;span&gt;&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="mil-social"&gt;
+			&lt;ul&gt;
+				&lt;li&gt;
+					&lt;a href="https://facebook.com" target="_blank" class="social-icon"&gt;
+						&lt;i class="fab fa-facebook"&gt;&lt;/i&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href="https://instagram.com" target="_blank" class="social-icon"&gt;
+						&lt;i class="fab fa-instagram"&gt;&lt;/i&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href="https://linkedin.com" target="_blank" class="social-icon"&gt;
+						&lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+				&lt;li&gt;
+					&lt;a href="https://youtube.com" target="_blank" class="social-icon"&gt;
+						&lt;i class="fab fa-youtube"&gt;&lt;/i&gt;
+					&lt;/a&gt;
+				&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;!-- top panel end --&gt;
+
+&lt;/div&gt;
+&lt;!-- frame end --&gt;		
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_footer" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Footer"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- frame --&gt;
+&lt;div class="mil-frame"&gt;
+
+	&lt;!-- footer --&gt;
+	&lt;div class="mil-footer"&gt;
+		&lt;p class="mil-upper mil-upper-sm"&gt;© 2024 &lt;span class="mil-accent"&gt;Treto.&lt;/span&gt; All rights reserved.&lt;/p&gt;
+	&lt;/div&gt;
+	&lt;!-- footer end --&gt;
+
+&lt;/div&gt;
+&lt;!-- frame end --&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="html_structure_home" class="dt-section">
+				<h2 class="dt-title">HTML structure of "Wrapper"</h2>
+				<pre class="code language-html">
+					<code>
+&lt;!-- onepage wrapper --&gt;
+&lt;div class="mil-onepage"&gt;
+
+	&lt;!-- banner --&gt;
+	&lt;div class="mil-section mil-banner mil-banner-right"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- banner end --&gt;
+
+	&lt;!-- about --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- about end --&gt;
+
+	&lt;!-- skills --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- skills end --&gt;
+
+	&lt;!-- education --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- education end --&gt;
+
+	&lt;!-- experience --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- experience end --&gt;
+
+	&lt;!-- services --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- services end --&gt;
+
+	&lt;!-- reviews --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- reviews end --&gt;
+
+	&lt;!-- contacts --&gt;
+	&lt;div class="mil-section mil-op-space-90"&gt;
+		...
+	&lt;/div&gt;
+	&lt;!-- contacts end --&gt;
+
+&lt;/div&gt;
+&lt;!-- onepage wrapper end --&gt;
+					</code>
+				</pre>
+			</article>
+			<article id="icons" class="dt-section">
+				<h2 class="dt-title">Icons</h2>
+				<p>
+					In this template are defined some of classes for icons, your can see all icons here - <a href="https://fontawesome.com/v5/search">https://fontawesome.com/v5/search</a>
+				</p>
+			</article>
+			<article id="credits" class="dt-section">
+				<h2 class="dt-title">Source & Credits</h2>
+				<h3>Scripts</h3>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">jQuery</span> <a target="_blank" href="https://jquery.com/">https://jquery.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Isotope</span> <a target="_blank" href="https://isotope.metafizzy.co/">https://isotope.metafizzy.co/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">imagesLoaded</span> <a target="_blank" href="http://imagesloaded.desandro.com/">http://imagesloaded.desandro.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">jQuery Validation Plugin</span> <a target="_blank" href="http://jqueryvalidation.org/">http://jqueryvalidation.org/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Magnific Popup</span> <a target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Swiper</span> <a target="_blank" href="https://swiperjs.com/">https://swiperjs.com/</a>
+					</li>
+					<li>
+						<span class="dt-label dt-label_bold">Bootstrap</span> <a target="_blank" href="https://getbootstrap.com/">https://getbootstrap.com/</a>
+					</li>
+				</ul>
+				<h3>Images</h3>
+				<p>Any Images or logos used in previews are not included in this item or final purchase.</p>
+				<ul class="dt-list dt-list_nested dt-info-block">
+					<li>
+						<span class="dt-label dt-label_bold">Pexels</span>
+					</li>
+				</ul>
+			</article>
+		</div>
+	</div>
+<script src="assets/rainbow-custom.min.js"></script>
+</body>
+</html>

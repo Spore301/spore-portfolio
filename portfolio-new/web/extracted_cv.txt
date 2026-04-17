@@ -1,0 +1,86 @@
+DEBARGHA BANDYOPADHYAY
++91 8167336506⋄Kolkata, India
+debarghabandyopadhyayofficial@gmail.com⋄behance.net/debarghaofficial⋄github.com/Spore301
+OBJECTIVE
+AI-focused Product Designer and Technical Prototyper with 3+ years of experience designing digital products and
+building automation tools. Skilled in translating complex business workflows into intuitive product experiences and
+developing rapid technical solutions using web technologies and automation frameworks.
+SKILLS
+Design ToolsFigma, Adobe XD, Photoshop, Illustrator
+Web DevelopmentHTML, CSS, JavaScript, REST APIs
+Automation & DataBeautifulSoup, Playwright, Web Scraping, Data Processing
+Web PlatformsWebflow, Wix Studio, WordPress
+Soft SkillsProduct Thinking, Design Leadership, Cross-Team Collaboration
+EXPERIENCE
+UI/UX Designer June 2025 - Present
+Abacus Digital Pvt. Ltd. Kolkata, India
+•Design user-centric interfaces for digital transformation platforms used by enterprise and SMB clients.
+•Translate complex business workflows into intuitive product experiences and scalable UI systems.
+•Collaborate with developers and stakeholders to deliver functional and production-ready digital solutions.
+•Identify opportunities for automation and improved workflow design within client digital ecosystems.
+AI Product Designer InternMarch 2025 - May 2025
+ProCodeOne Remote
+•Designed user workflows and interface concepts for AI-powered product prototypes and automation tools.
+•Collaborated with developers to translate AI capabilities into usable product features.
+•Contributed to rapid prototyping of AI-assisted internal tools and experimental product ideas.
+UI/UX DesignerMay 2024 - June 2025
+Aurorabyte Technologies Kolkata, India
+•Redesigned the company’s digital interface and improved usability across its flagship application.
+•Increased engagement and usability by optimizing the UI flow and visual consistency.
+•Worked closely with development teams to ensure correct implementation of UI specifications.
+Freelance Graphics and UI/UX DesignerDecember 2021 - Present
+Self-Employed Remote
+•Delivered UI designs, marketing graphics, and branding materials for multiple clients.
+•Maintained an active design portfolio on Behance with 450+ project views and 13 appreciations.
+•Built long-term client relationships through iterative design and consistent delivery.
+TECHNICAL AUTOMATION PROJECTS
+Email Discovery & Verification Engine
+•Designed and developed an automated pipeline to extract and validate business email addresses from large
+domain datasets.
+•Implemented HTML scraping using BeautifulSoup combined with MX record validation to eliminate false posi-
+tives and verify active mail servers.
+•Built dual scraping modes: Smart Scrape (homepage scan) and Deep Scrape (recursive site crawl).
+•Processed 3000+ domains via CSV input and generated structured contact datasets as output.
+•Reduced manual lead discovery time from approximately 1.5 weeks of manual research to roughly 3 hours of
+automated processing.
+•Developed and deployed the working prototype in under 7 hours, demonstrating rapid problem-solving and
+technical prototyping capability.
+Website Intelligence & UX Audit Crawler
+•Built a headless browser crawler using Playwright to map and analyze large enterprise websites.
+•Automatically generated sitemap structures, page relationships, and internal navigation pathways.
+•Extracted CTAs, internal links, and content relationships to analyze user journey flows.
+•Implemented document discovery and bulk export of website documentation assets.
+•Generated SVG-based user flow diagrams exportable for direct import into Figma UX workflows.
+•Reduced manual website audit and documentation mapping from roughly 1 week of manual analysis to minutes
+of automated crawling.
+EDUCATION
+Bachelor of Technology in Computer Science and IoT
+University of Engineering and Management, Kolkata 2021 - 2025
+GPA: 8.24 / 10
+Higher Secondary (12th Grade)
+Panisheola Indira Smriti Vidyapith 2021
+Secondary (10th Grade)
+Panisheola Indira Smriti Vidyapith 2019
+PRODUCT DESIGN PROJECTS
+Aurorabyte Product Interface Design– Redesigned the primary interface for Aurorabyte Technologies’ flagship
+application, improving usability and information hierarchy.
+Personal Assistant GUI– Designed an intuitive interface for a digital personal assistant application, developing
+25+ interface components and interaction flows focused on accessibility and streamlined task navigation. View on
+Behance
+Home Monitoring System– Designed an IoT dashboard interface enabling real-time monitoring and control of
+connected household devices.
+Travel Naut Website Interface– Designed a responsive travel discovery platform with structured exploration
+flows and interactive navigation systems.
+Paracosm Movie Recommendation App– Designed a personalized movie discovery experience with recommen-
+dation layouts and browsing filters to enhance content exploration.
+LEADERSHIP & ORGANIZATIONS
+Design Society of UEMK
+•President June 2024 - Present
+•Assistant Secretary September 2023 - May 2024
+UEMCON
+•Deputy Secretary General August 2024 - Present
+•Director General August 2023 - July 2024
+•Under Secretary General - Graphics February 2022 - July 2023
+PORTFOLIO & ONLINE PRESENCE
+•Behance Portfolio: behance.net/debarghaofficial
+•GitHub: github.com/Spore301
